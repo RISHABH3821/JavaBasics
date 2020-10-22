@@ -9,6 +9,8 @@ Also one noteworthy problem with using just packages were having two classes wit
 
 ## Modules
 In modules we can define which packages to export and which package a module will require.
+
+### Example module info class
 ```java
 module com.rishabh.mymodule {
     requires javafx.graphics;
